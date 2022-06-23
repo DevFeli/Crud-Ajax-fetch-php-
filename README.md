@@ -1,4 +1,4 @@
-<h1>Projeto para estudos CRUD com fetch api e php</h1>
+<h1>Projeto para estudo, CRUD com fetch api e php</h1>
 
 <h2>Tecnologias utilizadas</h2>
 
