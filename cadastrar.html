@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style.css">
+    <title>CRUD com Ajax</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="top">
+            <div class="logo"><a href=""><h1>LOGO</h1></a></div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="cadastrar.html">Cadastrar</a></li>
+                    <li><a href="listar.html">Listar</a></li>
+                    <li class="get">
+                        <input class="inp-txt" type="text">
+                        <a class="btn-search" href="">Pesquisar</a>
+                    </li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="main-section">
+            <p>CADASTRAR</p>
+            <form action="" class="cad">
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text">
+
+                <label for="descricao">Descricao:</label>
+                <input id="descricao" name="descricao" type="text">
+
+                <label for="preco">Preco:</label>
+                <input id="preco" name="preco" type="text">
+
+                <button class="btn-form">Cadastrar</button>
+            </form>
+            <div class="msg"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>
+                Todos direitos reservados teste@&copy;
+            </p>
+        </div>
+    </footer>
+
+    <script src="./public/script.js"></script>
+    <script src="./public/search.js"></script>
+</body>
+</html>
